@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+   <div id="place">
+    <input type="text" placeholder="0" style="width: 536px; height: 142.728px; flex-shrink: 0; border-radius: 12px; font-size: 60px;color:white;background: #181F32;" value="">
+
+
+    </div>
+    <div class="container"> 
+        <div id="row1">
+            <button style="width: 100px; height: 60px; flex-shrink: 0; border-radius: 12px; background: white;" onclick="calculator('7')"><b>7</b></button>
+            <button style="width: 100px; height: 60px; flex-shrink: 0; border-radius: 12px; background: white;" onclick="calculator('8')"><b>8</b></button>
+            <button style="width: 100px; height: 60px; flex-shrink: 0; border-radius: 12px; background: white;" onclick="calculator('9')"><b>9</b></button>
+            <button style="width: 100px; height: 60px; flex-shrink: 0; border-radius: 12px; background: #3B4664;color:white" onclick=" destroy('DEL')"><b>DEL</b></button>
+        </div>
+        <div id="row2">
+            <button style="width: 100px; height: 60px; flex-shrink: 0; border-radius: 12px; background: white;" onclick="calculator('4')"><b>4</b></button>
+            <button style="width: 100px; height: 60px; flex-shrink: 0; border-radius: 12px; background: white;" onclick="calculator('5')"><b>5</b></button>
+            <button style="width: 100px; height: 60px; flex-shrink: 0; border-radius: 12px; background: white;" onclick="calculator('6')"><b>6</b></button>
+            <button style="width: 100px; height: 60px; flex-shrink: 0; border-radius: 12px; background: white;" onclick="calculator('+')"><b>+</b></button>
+        </div>
+        <div id="row3">
+            <button style="width: 100px; height: 60px; flex-shrink: 0; border-radius: 12px; background: white;" onclick="calculator('1')"><b>1</b></button>
+            <button style="width: 100px; height: 60px; flex-shrink: 0; border-radius: 12px; background: white;" onclick="calculator('2')"><b>2</b></button>
+            <button style="width: 100px; height: 60px; flex-shrink: 0; border-radius: 12px; background: white;" onclick="calculator('3')"><b>3</b></button>
+            <button style="width: 100px; height: 60px; flex-shrink: 0; border-radius: 12px; background: white;" onclick="calculator('-')"><b>-</b></button>
+        </div>
+        <div id="row4">
+            <button style="width: 100px; height: 60px; flex-shrink: 0; border-radius: 12px; background: white;" onclick="calculator('.')"><b>.</b></button>
+            <button style="width: 100px; height: 60px; flex-shrink: 0; border-radius: 12px; background: white;" onclick="calculator('0')"><b>0</b></button>
+            <button style="width: 100px; height: 60px; flex-shrink: 0; border-radius: 12px; background: white;" onclick="calculator('/')"><b>/</b></button>
+            <button style="width: 100px; height: 60px; flex-shrink: 0; border-radius: 12px; background: white;" onclick="calculator('*')"><b>x</b></button>
+        </div>
+        <div id="row5">
+            <button style="width: 178px; height: 60px; flex-shrink: 0; border-radius: 12px; background: #3B4664;color: #FFF;" onclick=" clearall('clear')"><b>RESET</b></button>
+            <button style="width: 178px; height: 60px; flex-shrink: 0; border-radius: 12px; background:red;color: #FFF;" onclick="result('result')"><b>=</b></button>
+        </div>
+
+    
+        
+        <div>
+            <script>
+
+            </script>
+      <script src="./script.js" defer> </script>
+</body>
+</html>
